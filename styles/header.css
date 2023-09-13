@@ -57,4 +57,15 @@ position: relative;
             .container__titulo--negrito{
             font-weight: 700;
             }
+            .opções{
+                display:flex;
+        }
+        .opções__item{
+            padding: 0 1em;
+            text-transform: uppercase;
+        }
+        .opções__linl{
+            text-decoration: none;
+            color: var(--preto);
+        }
         }
