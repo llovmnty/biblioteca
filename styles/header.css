@@ -47,7 +47,9 @@ position: relative;
             background-clip: text;
             text-transform: uppercase;
         }
+        .opções{display: none;}
         @media screen and (min-width: 1024px){
+            .cabeçalho__menu-hamburguer{display: none;}
             .container__titulo{
             font-family: var(--fonte-secundaria);
             font-size: 30px;
@@ -68,4 +70,6 @@ position: relative;
             text-decoration: none;
             color: var(--preto);
         }
+        .container__imagem-transparente
+        display: none;
         }
