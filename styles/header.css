@@ -72,4 +72,11 @@ position: relative;
         }
         .container__imagem-transparente
         display: none;
+        .opções_botão:checked-lista-menu (
+            display:block;
+            width: auto;
+        )
+        .opções_botão(
+            display: none;
+        )
         }
